@@ -1,0 +1,19 @@
+{
+  "name": "konsumentomdome",
+  "version": "1.0.0",
+  "description": "Konsument Omdöme",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandaek/KonsumentOmd-me.git"
+  },
+  "author": "Fernanda Ek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandaek/KonsumentOmd-me/issues"
+  },
+  "homepage": "https://github.com/fernandaek/KonsumentOmd-me#readme"
+}
