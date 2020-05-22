@@ -4,6 +4,7 @@
   "description": "Konsument Omdöme",
   "main": "app.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/fernandaek/KonsumentOmd-me/issues"
   },
-  "homepage": "https://github.com/fernandaek/KonsumentOmd-me#readme"
+  "homepage": "https://github.com/fernandaek/KonsumentOmd-me#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
 }
