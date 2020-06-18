@@ -4,10 +4,12 @@ Github link: https://github.com/fernandaek/KonsumentOmd-me
 by Fernanda Ek 
 
 1. Download the project or clone the project by:
- a) Opening the visual studio code and open the terminal in VS Code (crtl+shift+ö)
- b) Type in the terminal: git clone https://github.com/fernandaek/KonsumentOmd-me.git
- c) Wait while the project is being cloned.
- d) Open the folder that you just cloned by typing: cd .\KonsumentOmd-me\
+ - a) Opening the visual studio code and open the terminal in VS Code (crtl+shift+ö)
+ - b) Type in the terminal: git clone https://github.com/fernandaek/KonsumentOmd-me.git
+ - c) Wait while the project is being cloned.
+ - d) Open the folder that you just cloned by typing: cd .\KonsumentOmd-me\
+ or 
+ clicking in 'open folder' and navigating to the local where you cloned the project
  
  *Once you are in the folder KonsumentOmd-me*
 1. Installing the dependencies:
