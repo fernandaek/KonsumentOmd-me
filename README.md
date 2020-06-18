@@ -9,8 +9,7 @@ by Fernanda Ek
  - c) Wait while the project is being cloned.
  - d) Open the folder that you just cloned by typing: cd .\KonsumentOmd-me\
  or 
- clicking in 'open folder' and navigating to the local where you cloned the project
- 
+ - e) By clicking in 'open folder' in VS Code and navigating to the local where you cloned the project you will be able to open the folder in your VS Code 
  *Once you are in the folder KonsumentOmd-me*
 1. Installing the dependencies:
 a. npm install
