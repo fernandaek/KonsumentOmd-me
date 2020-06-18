@@ -1,0 +1,40 @@
+<%- include("../partials/header") %>
+
+
+<% if(currentUser && currentUser.isAdmin) { %>
+<h1 class="alert alert-success">You're ADMIN</h1>
+<% } %>
+<header class="jumbotron text-center" style="background-image: url('https://images.unsplash.com/photo-1565514158882-617325fbd873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60');">
+    <div class="container">
+        <h1 class="display-3" style="color: darkolivegreen;">You bought and used</h1>
+        <hr />
+        <h1 class="display-3" style="color: darkolivegreen">But you don't recommend</h1>
+        <p>
+            <a class="btn btn-primary btn-lg" href="/reviews/new" style="background-color: darkolivegreen; border-color: darkolivegreen;">Add a new review</a>
+        </p>
+    </div>
+</header>
+<div class="container">
+    <div class="row text-center" style="display: flex; flex-wrap: wrap;">
+        <div class="col-lg-12">
+            <h1>This is the Review page</h1>
+        </div>
+        <% reviews.forEach(function(review){ %>
+            <div class="col-md-3 col-sm-6" style="padding: 10px;">
+                <div class="img-thumbnail" style="background-color: rgba(85, 107, 47, 0.5);">
+                    <img class="rounded img-fluid" src="<%= review.image %>" />
+                    <div class="figure-caption">
+                        <h4><%= review.name %></h4>
+                    </div>
+                    <p>
+                        <a class="btn btn-primary" style="background-color: darkolivegreen; border-color: antiquewhite;" href="/reviews/<%= review._id %>">Read</a>
+                    </p>
+                </div>
+            </div>
+        <% }); %>
+    </div>
+</div>
+
+
+<%- include("../partials/footer") %>
+
